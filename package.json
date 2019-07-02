@@ -1,0 +1,24 @@
+{
+    "name": "express-skeleton",
+    "version": "0.0.1",
+    "description": "express skeleton project",
+    "private": true,
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "start": "node index.js",
+        "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "debug": "^4.1.1",
+        "express": "^4.17.1",
+        "express-handlebars": "^3.1.0",
+        "http-errors": "^1.7.3",
+        "morgan": "^1.9.1"
+    },
+    "devDependencies": {
+        "mocha": "^6.1.4"
+    }
+}

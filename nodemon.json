@@ -1,0 +1,16 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules",
+        "*.test.js",
+        "fixtures/*",
+        "public"
+    ],
+    "verbose": true,
+    "delay": "3000",
+    "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "express:*"
+    }
+}
